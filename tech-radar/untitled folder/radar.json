@@ -1,0 +1,306 @@
+[
+  {
+    "quadrant": 0,
+    "ring": 0,
+    "label": "Python",
+    "link": "",
+    "active": "TRUE",
+    "moved": 0
+  },
+  {
+    "quadrant": 2,
+    "ring": 0,
+    "label": "Scikit-Learn",
+    "link": "",
+    "active": "TRUE",
+    "moved": 0
+  },
+  {
+    "quadrant": 0,
+    "ring": 0,
+    "label": "R",
+    "link": "",
+    "active": "TRUE",
+    "moved": 0
+  },
+  {
+    "quadrant": 2,
+    "ring": 0,
+    "label": "Jupyter Notebook",
+    "link": "",
+    "active": "TRUE",
+    "moved": 0
+  },
+  {
+    "quadrant": 2,
+    "ring": 0,
+    "label": "PyTorch",
+    "link": "",
+    "active": "TRUE",
+    "moved": 0
+  },
+  {
+    "quadrant": 2,
+    "ring": 0,
+    "label": "TensorFlow",
+    "link": "",
+    "active": "TRUE",
+    "moved": 0
+  },
+  {
+    "quadrant": 0,
+    "ring": 1,
+    "label": "PySpark",
+    "link": "",
+    "active": "TRUE",
+    "moved": 0
+  },
+  {
+    "quadrant": 0,
+    "ring": 0,
+    "label": "SQL",
+    "link": "",
+    "active": "TRUE",
+    "moved": 0
+  },
+  {
+    "quadrant": 2,
+    "ring": 0,
+    "label": "Azure Machine Learning",
+    "link": "",
+    "active": "TRUE",
+    "moved": 0
+  },
+  {
+    "quadrant": 2,
+    "ring": 1,
+    "label": "Databricks",
+    "link": "",
+    "active": "TRUE",
+    "moved": 0
+  },
+  {
+    "quadrant": 1,
+    "ring": 0,
+    "label": "Git",
+    "link": "",
+    "active": "TRUE",
+    "moved": 0
+  },
+  {
+    "quadrant": 2,
+    "ring": 1,
+    "label": "PostgreSQL",
+    "link": "",
+    "active": "TRUE",
+    "moved": 0
+  },
+  {
+    "quadrant": 1,
+    "ring": 3,
+    "label": "PyCharm",
+    "link": "",
+    "active": "TRUE",
+    "moved": 0
+  },
+  {
+    "quadrant": 1,
+    "ring": 0,
+    "label": "VS Code",
+    "link": "",
+    "active": "TRUE",
+    "moved": 0
+  },
+  {
+    "quadrant": 3,
+    "ring": 2,
+    "label": "CI/CD",
+    "link": "",
+    "active": "TRUE",
+    "moved": 0
+  },
+  {
+    "quadrant": 1,
+    "ring": 3,
+    "label": "Excel",
+    "link": "",
+    "active": "TRUE",
+    "moved": 0
+  },
+  {
+    "quadrant": 2,
+    "ring": 0,
+    "label": "Hadoop",
+    "link": "",
+    "active": "TRUE",
+    "moved": 0
+  },
+  {
+    "quadrant": 2,
+    "ring": 3,
+    "label": "PyGAME",
+    "link": "",
+    "active": "TRUE",
+    "moved": 0
+  },
+  {
+    "quadrant": 2,
+    "ring": 0,
+    "label": "NetworkX",
+    "link": "",
+    "active": "TRUE",
+    "moved": 0
+  },
+  {
+    "quadrant": 2,
+    "ring": 2,
+    "label": "NLTK",
+    "link": "",
+    "active": "TRUE",
+    "moved": 0
+  },
+  {
+    "quadrant": 2,
+    "ring": 0,
+    "label": "GIS",
+    "link": "",
+    "active": "TRUE",
+    "moved": 0
+  },
+  {
+    "quadrant": 2,
+    "ring": 3,
+    "label": "QGIS",
+    "link": "",
+    "active": "TRUE",
+    "moved": 0
+  },
+  {
+    "quadrant": 2,
+    "ring": 3,
+    "label": "MapInfo",
+    "link": "",
+    "active": "TRUE",
+    "moved": 0
+  },
+  {
+    "quadrant": 2,
+    "ring": 3,
+    "label": "SPSS",
+    "link": "",
+    "active": "TRUE",
+    "moved": 0
+  },
+  {
+    "quadrant": 2,
+    "ring": 0,
+    "label": "WordPress",
+    "link": "",
+    "active": "TRUE",
+    "moved": 2
+  },
+  {
+    "quadrant": 2,
+    "ring": 1,
+    "label": "Apache",
+    "link": "",
+    "active": "TRUE",
+    "moved": 2
+  },
+  {
+    "quadrant": 2,
+    "ring": 0,
+    "label": "MySQL",
+    "link": "",
+    "active": "TRUE",
+    "moved": 1
+  },
+  {
+    "quadrant": 1,
+    "ring": 1,
+    "label": "Cloudflare",
+    "link": "",
+    "active": "TRUE",
+    "moved": 2
+  },
+  {
+    "quadrant": 0,
+    "ring": 1,
+    "label": "HTML",
+    "link": "",
+    "active": "TRUE",
+    "moved": 2
+  },
+  {
+    "quadrant": 0,
+    "ring": 1,
+    "label": "CSS",
+    "link": "",
+    "active": "TRUE",
+    "moved": 2
+  },
+  {
+    "quadrant": 3,
+    "ring": 0,
+    "label": "Feature Engineering",
+    "link": "",
+    "active": "TRUE",
+    "moved": 0
+  },
+  {
+    "quadrant": 3,
+    "ring": 2,
+    "label": "Data Mining",
+    "link": "",
+    "active": "TRUE",
+    "moved": 0
+  },
+  {
+    "quadrant": 3,
+    "ring": 0,
+    "label": "Network Science",
+    "link": "",
+    "active": "TRUE",
+    "moved": 0
+  },
+  {
+    "quadrant": 3,
+    "ring": 0,
+    "label": "Predictive Modeling",
+    "link": "",
+    "active": "TRUE",
+    "moved": 0
+  },
+  {
+    "quadrant": 3,
+    "ring": 0,
+    "label": "Cloud Computing",
+    "link": "",
+    "active": "TRUE",
+    "moved": 0
+  },
+  {
+    "quadrant": 3,
+    "ring": 3,
+    "label": "Geospatial Analysis",
+    "link": "",
+    "active": "TRUE",
+    "moved": 0
+  },
+  {
+    "quadrant": 3,
+    "ring": 2,
+    "label": "ETL",
+    "link": "",
+    "active": "TRUE",
+    "moved": 0
+  },
+  {
+    "quadrant": 3,
+    "ring": 1,
+    "label": "Web Development Basics",
+    "link": "",
+    "active": "TRUE",
+    "moved": 2
+  }
+]

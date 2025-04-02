@@ -1,0 +1,389 @@
+{
+  "date": "2025-03",
+  "entries": [
+    {
+      "quadrant": 0,
+      "ring": 0,
+      "label": "Python",
+      "link": "",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 2,
+      "ring": 0,
+      "label": "Scikit-Learn",
+      "link": "https://scikit-learn.org/",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 0,
+      "ring": 0,
+      "label": "R",
+      "link": "",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 2,
+      "ring": 0,
+      "label": "Jupyter Notebook",
+      "link": "https://jupyter.org/",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 2,
+      "ring": 0,
+      "label": "PyTorch",
+      "link": "https://pytorch.org/",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 2,
+      "ring": 0,
+      "label": "TensorFlow",
+      "link": "https://www.tensorflow.org/",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 0,
+      "ring": 1,
+      "label": "PySpark",
+      "link": "",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 0,
+      "ring": 0,
+      "label": "SQL",
+      "link": "",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 2,
+      "ring": 0,
+      "label": "Azure Machine Learning",
+      "link": "https://azure.microsoft.com/en-us/products/machine-learning/",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 2,
+      "ring": 1,
+      "label": "Databricks",
+      "link": "https://www.databricks.com/",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 1,
+      "ring": 0,
+      "label": "Git",
+      "link": "",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 1,
+      "ring": 1,
+      "label": "PostgreSQL",
+      "link": "",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 1,
+      "ring": 3,
+      "label": "PyCharm",
+      "link": "",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 1,
+      "ring": 0,
+      "label": "VS Code",
+      "link": "",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 3,
+      "ring": 2,
+      "label": "CI/CD",
+      "link": "",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 1,
+      "ring": 3,
+      "label": "Excel",
+      "link": "",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 2,
+      "ring": 0,
+      "label": "Hadoop",
+      "link": "",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 2,
+      "ring": 3,
+      "label": "PyGAME",
+      "link": "https://www.pygame.org/",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 2,
+      "ring": 0,
+      "label": "NetworkX",
+      "link": "https://networkx.org/",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 2,
+      "ring": 2,
+      "label": "NLTK",
+      "link": "https://www.nltk.org/",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 2,
+      "ring": 0,
+      "label": "GIS",
+      "link": "",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 2,
+      "ring": 3,
+      "label": "QGIS",
+      "link": "https://qgis.org/en/site/",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 2,
+      "ring": 3,
+      "label": "MapInfo",
+      "link": "https://www.precisely.com/product/precisely-mapinfo",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 2,
+      "ring": 3,
+      "label": "SPSS",
+      "link": "",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 2,
+      "ring": 1,
+      "label": "WordPress.org",
+      "link": "https://wordpress.org/",
+      "active": true,
+      "moved": 2
+    },
+    {
+      "quadrant": 1,
+      "ring": 1,
+      "label": "Apache",
+      "link": "\u00a0https://httpd.apache.org/",
+      "active": true,
+      "moved": 2
+    },
+    {
+      "quadrant": 1,
+      "ring": 0,
+      "label": "MySQL",
+      "link": "",
+      "active": true,
+      "moved": 1
+    },
+    {
+      "quadrant": 1,
+      "ring": 1,
+      "label": "Cloudflare",
+      "link": "https://www.cloudflare.com/",
+      "active": true,
+      "moved": 2
+    },
+    {
+      "quadrant": 0,
+      "ring": 1,
+      "label": "HTML",
+      "link": "",
+      "active": true,
+      "moved": 2
+    },
+    {
+      "quadrant": 0,
+      "ring": 2,
+      "label": "CSS",
+      "link": "",
+      "active": true,
+      "moved": 2
+    },
+    {
+      "quadrant": 3,
+      "ring": 0,
+      "label": "Feature Engineering",
+      "link": "",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 3,
+      "ring": 2,
+      "label": "Data Mining",
+      "link": "",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 3,
+      "ring": 0,
+      "label": "Network Science",
+      "link": "",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 3,
+      "ring": 0,
+      "label": "Predictive Modeling",
+      "link": "",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 3,
+      "ring": 0,
+      "label": "Cloud Computing",
+      "link": "",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 3,
+      "ring": 3,
+      "label": "Geospatial Analysis",
+      "link": "",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 3,
+      "ring": 2,
+      "label": "ETL",
+      "link": "",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 3,
+      "ring": 1,
+      "label": "Web Development Basics",
+      "link": "",
+      "active": true,
+      "moved": 2
+    },
+    {
+      "quadrant": 2,
+      "ring": 1,
+      "label": "Hugo",
+      "link": "https://gohugo.io/",
+      "active": true,
+      "moved": 2
+    },
+    {
+      "quadrant": 2,
+      "ring": 0,
+      "label": "DigitalOcean",
+      "link": "https://www.digitalocean.com/",
+      "active": true,
+      "moved": 2
+    },
+    {
+      "quadrant": 0,
+      "ring": 2,
+      "label": "Javascript",
+      "link": "",
+      "active": true,
+      "moved": 2
+    },
+    {
+      "quadrant": 1,
+      "ring": 1,
+      "label": "Markdown",
+      "link": "",
+      "active": true,
+      "moved": 1
+    },
+    {
+      "quadrant": 3,
+      "ring": 0,
+      "label": "Zsh/Bash",
+      "link": "",
+      "active": true,
+      "moved": 1
+    },
+    {
+      "quadrant": 1,
+      "ring": 0,
+      "label": "SSH",
+      "link": "",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 1,
+      "ring": 1,
+      "label": "SFTP",
+      "link": "",
+      "active": true,
+      "moved": 1
+    },
+    {
+      "quadrant": 1,
+      "ring": 0,
+      "label": "Github",
+      "link": "https://github.com/",
+      "active": true,
+      "moved": 1
+    },
+    {
+      "quadrant": 1,
+      "ring": 0,
+      "label": "DataSpell",
+      "link": "https://www.jetbrains.com/dataspell/",
+      "active": true,
+      "moved": 2
+    },
+    {
+      "quadrant": 0,
+      "ring": 0,
+      "label": "LaTeX",
+      "link": "",
+      "active": true,
+      "moved": 0
+    }
+  ]
+}
