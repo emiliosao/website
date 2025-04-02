@@ -1,6 +1,6 @@
-baseURL = "https://emiliosao.github.io/website/"
-relativeURLs = true
-canonifyURLs = true
+baseURL = "https://emiliosao.me/"
+relativeURLs = false
+canonifyURLs = false
 theme = "papermod"
 languageCode = "en-us"
 
