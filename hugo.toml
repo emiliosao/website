@@ -1,4 +1,6 @@
 baseURL = "https://emiliosao.github.io/website/"
+relativeURLs = true
+canonifyURLs = true
 theme = "papermod"
 languageCode = "en-us"
 
@@ -21,10 +23,6 @@ languageCode = "en-us"
   showCount = false
   mainSections = []
   homeSections = []
-  relativeURLs = true
-  canonifyURLs = true
-
-
 
 [markup]
   [markup.goldmark]
