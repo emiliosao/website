@@ -1,6 +1,6 @@
 baseURL = "https://emiliosao.me/"
-relativeURLs = false
-canonifyURLs = false
+relativeURLs = true
+canonifyURLs = true
 theme = "papermod"
 languageCode = "en-us"
 
@@ -28,3 +28,4 @@ languageCode = "en-us"
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
+
