@@ -1,0 +1,29 @@
+baseURL = "https://emiliosao.github.io/website/"
+theme = "papermod"
+languageCode = "en-us"
+
+[params]
+  title = "emiliosao.me"
+  defaultTheme = "auto"
+  disableThemeToggle = true
+  favicon = "favicon.png"
+  ShowReadingTime = false
+  ShowShareButtons = false
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowPostNavLinks = true
+  hideFooter = true
+  noindex = true
+  canonicalURL = ""
+  disableSitemap = true
+  disableOpenGraph = false
+  disableTwitterCards = false
+  showCount = false
+  mainSections = []
+  homeSections = []
+
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
