@@ -2,12 +2,18 @@ import os
 from datetime import datetime
 from atproto import Client
 
-# Your Bluesky username and password
-USERNAME = "your_username"
-PASSWORD = "your_password"
+# Your Bluesky credentials from environment variables
+USERNAME = os.environ.get("BLUESKY_USERNAME", "")
+PASSWORD = os.environ.get("BLUESKY_PASSWORD", "")
+
+# Check if credentials are available
+if not USERNAME or not PASSWORD:
+    print("Error: Bluesky credentials not found in environment variables")
+    print("Please set BLUESKY_USERNAME and BLUESKY_PASSWORD environment variables")
+    exit(1)
 
 # Directory for blog posts
-blog_dir = "/var/www/website/content/blog/"
+blog_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), "../content/blog/")
 
 # Initialize the Bluesky client
 client = Client()

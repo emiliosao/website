@@ -7,7 +7,7 @@ import re
 rss_url = "https://letterboxd.com/emiliosao/rss/"
 
 # Directory for blog posts
-blog_dir = "/var/www/website/content/blog/"
+blog_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), "../content/blog/")
 
 # Fetch the RSS feed
 feed = feedparser.parse(rss_url)
