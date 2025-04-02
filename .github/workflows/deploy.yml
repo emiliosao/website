@@ -19,11 +19,14 @@ jobs:
         with:
           hugo-version: 'latest'
 
-      - name: Build Site
+      - name: Build site
         run: hugo --minify --baseURL "https://emiliosao.github.io/website/"
+
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./public
+          publish_dir: public
+          publish_branch: gh-pages
+
