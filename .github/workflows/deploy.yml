@@ -20,8 +20,7 @@ jobs:
           hugo-version: 'latest'
 
       - name: Build site
-        run: hugo --minify --baseURL "https://emiliosao.me/"
-
+        run: hugo --minify
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
