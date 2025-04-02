@@ -21,6 +21,14 @@ jobs:
 
       - name: Build site
         run: hugo --minify
+
+      - name: Set GitHub Pages custom domain
+        run: |
+          echo "emiliosao.me" > CNAME
+          git add CNAME
+          git commit -m "Update custom domain"
+          git push
+
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:

@@ -1,6 +1,7 @@
 baseURL = "https://emiliosao.me/"
 theme = "papermod"
 languageCode = "en-us"
+canonicalURL = "https://emiliosao.me/"
 
 [params]
   title = "emiliosao.me"
@@ -14,7 +15,6 @@ languageCode = "en-us"
   ShowPostNavLinks = true
   hideFooter = true
   noindex = true
-  canonicalURL = ""
   disableSitemap = true
   disableOpenGraph = false
   disableTwitterCards = false
@@ -26,4 +26,3 @@ languageCode = "en-us"
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
-
