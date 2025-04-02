@@ -1,7 +1,8 @@
 baseURL = "https://emiliosao.me/"
 theme = "papermod"
 languageCode = "en-us"
-canonicalURL = "https://emiliosao.me/"
+relativeURLs = true
+canonifyURLs = true
 
 [params]
   title = "emiliosao.me"

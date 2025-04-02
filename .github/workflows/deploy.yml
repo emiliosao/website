@@ -20,7 +20,7 @@ jobs:
           hugo-version: 'latest'
 
       - name: Build site
-        run: hugo --minify
+        run: hugo --minify --baseURL "https://emiliosao.me/"
 
       - name: Configure Git user
         run: |
