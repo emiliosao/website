@@ -1,6 +1,6 @@
 baseURL = "https://emiliosao.me/"
-relativeURLs = true
-canonifyURLs = true
+relativeURLs = false
+canonifyURLs = false
 theme = "papermod"
 languageCode = "en-us"
 
