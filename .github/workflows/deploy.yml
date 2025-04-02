@@ -22,6 +22,11 @@ jobs:
       - name: Build site
         run: hugo --minify
 
+      - name: Configure Git user
+        run: |
+          git config --global user.email "iam@emiliosao.com"
+          git config --global user.name "emiliosao"
+
       - name: Set GitHub Pages custom domain
         run: |
           echo "emiliosao.me" > CNAME
