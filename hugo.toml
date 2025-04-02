@@ -21,6 +21,9 @@ languageCode = "en-us"
   showCount = false
   mainSections = []
   homeSections = []
+  relativeURLs = true
+  canonifyURLs = true
+
 
 
 [markup]
