@@ -18,9 +18,9 @@ layout = "page"
     <a href="mailto:hello@emiliosao.com" style="text-decoration: none; color: currentColor;"><i class="fas fa-envelope" style="font-size: 24px;"></i></a>
     <a href="https://scholar.google.com/citations?user=Ue2RRtcAAAAJ" style="text-decoration: none; color: currentColor;"><i class="fas fa-graduation-cap" style="font-size: 24px;"></i></a>
     <a href="https://github.com/emiliosao" style="text-decoration: none; color: currentColor;"><i class="fab fa-github" style="font-size: 24px;"></i></a>
-    <a href="https://www.linkedin.com/in/emiliosao/" style="text-decoration: none; color: currentColor;"><i class="fab fa-linkedin" style="font-size: 24px;"></i></a>
-    <a href="https://bsky.app/profile/emiliosao.me" style="text-decoration: none; color: currentColor;"><i class="fas fa-cloud" style="font-size: 24px;"></i></a>
-    <a href="https://letterboxd.com/emiliosao/" style="text-decoration: none; color: currentColor;"><i class="fas fa-film" style="font-size: 24px;"></i></a>
+    <a href="https://www.linkedin.com/in/emiliosao/" style="text-decoration: none; color: currentColor;"><i class="fa-brands fa-linkedin-in" style="font-size: 24px;"></i></a>
+    <a href="https://bsky.app/profile/emiliosao.me" style="text-decoration: none; color: currentColor;"><i class="fa-brands fa-bluesky" style="font-size: 24px;"></i></a>
+    <a href="https://letterboxd.com/emiliosao/" style="text-decoration: none; color: currentColor;"><i class="fa-brands fa-letterboxd" style="font-size: 24px;"></i></a>
 </div>
 
 <!-- Mastodon verification links -->
