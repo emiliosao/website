@@ -11,7 +11,11 @@ layout = "page"
 </div>
 
 <!-- Include Font Awesome -->
+<<<<<<< HEAD
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ7/Wgk4zPGGLg0b3+jGJMzl0vWkW3+/FfkOkOHrtg9/tkD0xd7DXL0EXSk4UIA==" crossorigin="anonymous" referrerpolicy="no-referrer">
+=======
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+>>>>>>> fb2cd3ff9826aed82e4d33a7608df6280d6470de
 
 <!-- Social Icons Section -->
 <div style="margin-top: 20px; display: flex; justify-content: center; gap: 15px; flex-wrap: wrap;">
