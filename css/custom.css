@@ -1,15 +1,13 @@
 /* Style for social icons */
 .social-icon {
-  opacity: 0.8;
-}
-
-.social-icon:hover {
-  opacity: 1;
+  /* Make icons darker in light mode */
+  filter: brightness(0.2);
 }
 
 /* Dark mode adjustments */
 @media (prefers-color-scheme: dark) {
   .social-icon {
-    filter: invert(1);
+    /* Make icons white in dark mode */
+    filter: brightness(0) invert(1);
   }
 }
