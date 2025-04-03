@@ -14,7 +14,7 @@ canonifyURLs = true
   ShowBreadCrumbs = true
   ShowCodeCopyButtons = true
   ShowPostNavLinks = true
-  hideFooter = true
+  hideFooter = false  # Set to false to show social icons in footer
   noindex = true
   disableSitemap = true
   disableOpenGraph = false
@@ -22,7 +22,28 @@ canonifyURLs = true
   showCount = false
   mainSections = []
   homeSections = []
-  customCSS = ["css/custom.css"]
+  # customCSS = ["css/custom.css"]
+  
+  # Social Icons
+  [[params.socialIcons]]
+    name = "email"
+    url = "mailto:hello@emiliosao.com"
+  [[params.socialIcons]]
+    name = "googlescholar" 
+    url = "https://scholar.google.com/citations?view_op=list_works&hl=en&user=Ue2RRtcAAAAJ"
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/emiliosao"
+  [[params.socialIcons]]
+    name = "linkedin"
+    url = "https://www.linkedin.com/in/emiliosao/"
+  [[params.socialIcons]]
+    name = "bluesky"
+    url = "https://bsky.app/profile/emiliosao.me"
+  [[params.socialIcons]]
+    name = "letterboxd"
+    url = "https://letterboxd.com/emiliosao/"
+
 
 [markup]
   [markup.goldmark]
