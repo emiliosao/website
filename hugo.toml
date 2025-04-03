@@ -14,7 +14,7 @@ canonifyURLs = true
   ShowBreadCrumbs = true
   ShowCodeCopyButtons = true
   ShowPostNavLinks = true
-  hideFooter = false  # Set to false to show social icons in footer
+  hideFooter = false  # Set to false to show the footer
   noindex = true
   disableSitemap = true
   disableOpenGraph = false
@@ -24,7 +24,7 @@ canonifyURLs = true
   homeSections = []
   # customCSS = ["css/custom.css"]
   
-  # Social Icons
+  # Social Icons - don't add "socialIcons = true" here
   [[params.socialIcons]]
     name = "email"
     url = "mailto:hello@emiliosao.com"
@@ -43,7 +43,6 @@ canonifyURLs = true
   [[params.socialIcons]]
     name = "letterboxd"
     url = "https://letterboxd.com/emiliosao/"
-
 
 [markup]
   [markup.goldmark]
