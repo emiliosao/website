@@ -1,0 +1,15 @@
+/* Style for social icons */
+.social-icon {
+  opacity: 0.8;
+}
+
+.social-icon:hover {
+  opacity: 1;
+}
+
+/* Dark mode adjustments */
+@media (prefers-color-scheme: dark) {
+  .social-icon {
+    filter: invert(1);
+  }
+}

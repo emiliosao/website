@@ -22,6 +22,7 @@ canonifyURLs = true
   showCount = false
   mainSections = []
   homeSections = []
+  customCSS = ["css/custom.css"]
 
 [markup]
   [markup.goldmark]
