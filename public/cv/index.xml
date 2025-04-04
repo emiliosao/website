@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>CV on </title>
+    <link>http://localhost:1313/cv/</link>
+    <description>Recent content in CV on </description>
+    <generator>Hugo -- 0.145.0</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 01 Jan 0001 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/cv/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Emilio Sanchez Olivares</title>
+      <link>http://localhost:1313/cv/cv/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/cv/cv/</guid>
+      <description>&lt;hr&gt;
+&lt;div style=&#34;max-width: 900px; margin: auto; text-align: justify;&#34;&gt;
+    &lt;a href=&#34;../cv_emilio.pdf&#34;&gt;Download CV&lt;/a&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;experience&#34;&gt;Experience&lt;/h2&gt;
+&lt;h3 id=&#34;medior-data-scientist&#34;&gt;Medior Data Scientist&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Blackbirds&lt;/strong&gt;&lt;br&gt;
+March 2025 – Present&lt;br&gt;
+Rotterdam, NL&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Consultancy for companies in the Rotterdam Area.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;data-scientist&#34;&gt;Data Scientist&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Analytikus&lt;/strong&gt;&lt;br&gt;
+Aug 2018 – Nov 2021&lt;br&gt;
+Mexico City, MX (Remote)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Developed statistical models, conducted exploratory analysis, and performed feature engineering.&lt;/li&gt;
+&lt;li&gt;Automated workflows and executed server queries using Azure and Databricks.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;data-scientist-1&#34;&gt;Data Scientist&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Descifra&lt;/strong&gt;&lt;br&gt;
+Jan 2017 – Feb 2018&lt;br&gt;
+Mexico City, MX&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Created GIS data visualization layers for geographical insights.&lt;/li&gt;
+&lt;li&gt;Built and maintained supervised learning models using geographic and demographic data to predict sales.&lt;/li&gt;
+&lt;li&gt;Delivered projects across retail, demographics, and telecommunications sectors.&lt;/li&gt;
+&lt;li&gt;Developed an algorithm to identify the most profitable buffers based on predictive models.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;big-data-intern&#34;&gt;Big Data Intern&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Telefónica Movistar&lt;/strong&gt;&lt;br&gt;
+Jul 2016 - Jan 2017&lt;br&gt;
+Mexico City, MX&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

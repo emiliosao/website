@@ -33,7 +33,7 @@ canonifyURLs = true
 
 [menu]
   [[menu.main]]
-    name = "About"
+    name = "Home"
     url = "/"
     weight = 1
 
@@ -42,7 +42,7 @@ canonifyURLs = true
     url = "/blog/"
     weight = 2
 
-  [[menu.main]]
-    name = "CV"
-    url = "/cv/"
-    weight = 3
+  # [[menu.main]]
+    # name = "CV"
+    # url = "/cv/"
+    # weight = 3

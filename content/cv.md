@@ -1,9 +1,15 @@
 +++
-title = "CV Emilio Sanchez Olivares"
+title = "Emilio Sanchez Olivares"
 layout = "page"
 +++
 
 ---
+
+<div style="max-width: 900px; margin: auto; text-align: justify;">
+    <a href="/cv_emilio.pdf">Download CV</a>
+</div>
+
+[My Tech-Radar](/tech-radar/)
 
 ## Experience
 
