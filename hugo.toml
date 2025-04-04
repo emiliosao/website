@@ -33,7 +33,7 @@ canonifyURLs = true
 
 [menu]
   [[menu.main]]
-    name = "About"
+    name = "Home"
     url = "/"
     weight = 1
 
