@@ -1,9 +1,8 @@
----
-title = "Emilio Sánchez Olivares"
-windowTitle: "emiliosao.me"       # Browser/tab title
++++
+title = "emiliosao.me"
 type = "page"
 layout = "page"
----
++++
 
 # Emilio Sánchez Olivares
 
