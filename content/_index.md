@@ -1,9 +1,9 @@
-+++
+---
 title = "Emilio Sánchez Olivares"
 windowTitle: "emiliosao.me"       # Browser/tab title
 type = "page"
 layout = "page"
-+++
+---
 
 # Emilio Sánchez Olivares
 
