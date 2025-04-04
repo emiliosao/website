@@ -14,7 +14,7 @@ canonifyURLs = true
   ShowBreadCrumbs = true
   ShowCodeCopyButtons = true
   ShowPostNavLinks = true
-  hideFooter = false  # Set to false to show the footer
+  hideFooter = true  # Set to false to show the footer
   noindex = true
   disableSitemap = true
   disableOpenGraph = false
@@ -24,27 +24,25 @@ canonifyURLs = true
   homeSections = []
   # customCSS = ["css/custom.css"]
   
-  # Social Icons - don't add "socialIcons = true" here
-  [[params.socialIcons]]
-    name = "email"
-    url = "mailto:hello@emiliosao.com"
-  [[params.socialIcons]]
-    name = "googlescholar" 
-    url = "https://scholar.google.com/citations?view_op=list_works&hl=en&user=Ue2RRtcAAAAJ"
-  [[params.socialIcons]]
-    name = "github"
-    url = "https://github.com/emiliosao"
-  [[params.socialIcons]]
-    name = "linkedin"
-    url = "https://www.linkedin.com/in/emiliosao/"
-  [[params.socialIcons]]
-    name = "bluesky"
-    url = "https://bsky.app/profile/emiliosao.me"
-  [[params.socialIcons]]
-    name = "letterboxd"
-    url = "https://letterboxd.com/emiliosao/"
 
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
+
+
+[menu]
+  [[menu.main]]
+    name = "About"
+    url = "/"
+    weight = 1
+
+  [[menu.main]]
+    name = "Blog"
+    url = "/blog/"
+    weight = 2
+
+  [[menu.main]]
+    name = "CV"
+    url = "/cv/"
+    weight = 3

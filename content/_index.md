@@ -11,16 +11,14 @@ layout = "page"
 </div>
 
 <!-- Include Font Awesome -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
-<!-- Social Icons Section -->
-<div style="margin-top: 20px; display: flex; justify-content: center; gap: 15px; flex-wrap: wrap;">
-    <a href="mailto:hello@emiliosao.com" style="text-decoration: none; color: currentColor;"><i class="fas fa-envelope" style="font-size: 24px;"></i></a>
-    <a href="https://scholar.google.com/citations?user=Ue2RRtcAAAAJ" style="text-decoration: none; color: currentColor;"><i class="fas fa-graduation-cap" style="font-size: 24px;"></i></a>
-    <a href="https://github.com/emiliosao" style="text-decoration: none; color: currentColor;"><i class="fab fa-github" style="font-size: 24px;"></i></a>
-    <a href="https://www.linkedin.com/in/emiliosao/" style="text-decoration: none; color: currentColor;"><i class="fa-brands fa-linkedin-in" style="font-size: 24px;"></i></a>
-    <!-- <a href="https://bsky.app/profile/emiliosao.me" style="text-decoration: none; color: currentColor;"><i class="fas fa-cloud" style="font-size: 24px;"></i></a> -->
-    <a href="https://letterboxd.com/emiliosao/" style="text-decoration: none; color: currentColor;"><i class="fas fa-film" style="font-size: 24px;"></i></a>
+<!-- Professional Social Icons Section -->
+<div style="margin-top: 20px; display: flex; justify-content: center; gap: 20px; flex-wrap: wrap;">
+    <a href="mailto:hello@emiliosao.com" style="text-decoration: none; color: currentColor;" title="Email"><i class="fas fa-envelope" style="font-size: 24px;"></i></a>
+    <a href="https://scholar.google.com/citations?user=Ue2RRtcAAAAJ" style="text-decoration: none; color: currentColor;" title="Google Scholar"><i class="fas fa-graduation-cap" style="font-size: 24px;"></i></a>
+    <a href="https://github.com/emiliosao" style="text-decoration: none; color: currentColor;" title="GitHub"><i class="fab fa-github" style="font-size: 24px;"></i></a>
+    <a href="https://www.linkedin.com/in/emiliosao/" style="text-decoration: none; color: currentColor;" title="LinkedIn"><i class="fab fa-linkedin" style="font-size: 24px;"></i></a>
 </div>
 
 <!-- Mastodon verification links -->
