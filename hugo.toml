@@ -22,8 +22,7 @@ canonifyURLs = true
   showCount = false
   mainSections = []
   homeSections = []
-  # customCSS = ["css/custom.css"]
-  
+  googleAnalytics = "G-GBTND4TV5P"  # Use your correct ID from the script  
 
 [markup]
   [markup.goldmark]
