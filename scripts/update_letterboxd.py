@@ -12,7 +12,7 @@ blog_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), "../content/
 # Fetch the RSS feed
 feed = feedparser.parse(rss_url)
 
-# Get the most recent entry from the RSS feed
+# Get the most recent entries from the RSS feed
 if feed.entries:
     # Track existing blog files
     existing_files = {f for f in os.listdir(blog_dir) if f.endswith(".md")}
@@ -24,24 +24,45 @@ if feed.entries:
             print(f"Error parsing date for entry {entry.title}: {e}")
             continue
 
-        # Extract rating, liked, and rewatch from the title
-        rating_match = re.search(r'★+', entry.title)
+        # Extract rating from the title - includes half-star symbol ½
+        rating_match = re.search(r'★+½?', entry.title)
         rating = rating_match.group(0) if rating_match else ''
 
-        # Extract rewatch information from the RSS entry
-        rewatch = '🔄' if entry.get('letterboxd:rewatch', '').lower() == 'yes' else ''
+        # Check rewatch status
+        rewatch = ''
+        # Check if the rewatch tag exists in the raw XML
+        if hasattr(entry, 'tags'):
+            for tag in entry.tags:
+                if tag.get('term', '').lower() == 'rewatch':
+                    rewatch = '🔄'
+                    break
 
-        # Extract liked information from the content
-        liked = '🧡' if 'liked' in entry.summary.lower() else ''
+        # Fallback to checking rewatch status via attributes or title
+        if not rewatch:
+            # Check the letterboxd:rewatch element
+            rewatch_elem = entry.get('letterboxd_rewatch', '')
+            if rewatch_elem and rewatch_elem.lower() == 'yes':
+                rewatch = '🔄'
 
-        title = re.sub(r' - ★+½?|:|/|"', '', entry.title).strip()
+        # Additional fallback - check title for rewatch-related keywords
+        if not rewatch:
+            rewatch_keywords = ['rewatch', 're-watch', 'rewatched']
+            if any(keyword in entry.title.lower() for keyword in rewatch_keywords):
+                rewatch = '🔄'
+
+        # Remove rating from the title
+        title = re.sub(r' - ★+½?|:|/|\"', '', entry.title).strip()
         date = entry_date.strftime("%Y-%m-%d")
-        content = entry.summary.strip() if entry.summary else ""
-        url = entry.link
 
-        # Construct the summary based on the rating
+        # Extract poster and watched date from the description
+        poster_match = re.search(r'<img src="([^"]+)"', entry.summary or '')
+        poster_url = poster_match.group(1) if poster_match else ''
+
+        # Construct the summary based on the rating and rewatch status
         if rating:
             summary = f"{rating} on Letterboxd"
+        elif rewatch:
+            summary = f"🔄 on Letterboxd"
         else:
             summary = "Logged on Letterboxd"
 
@@ -51,7 +72,7 @@ if feed.entries:
         filename = f"{date_part}-{clean_title}.md"
         filepath = os.path.join(blog_dir, filename)
 
-        # Check if the file already exists
+        # Skip if already exists
         if os.path.exists(filepath):
             print(f"Already exists: {title}")
             continue
@@ -61,12 +82,22 @@ if feed.entries:
                 print(f"Writing to file: {filepath}")
                 f.write(f"---\ntitle: \"{title}\"\ndate: {date}\ntags: ['letterboxd']\n")
                 f.write(f"source: 'Letterboxd'\n")
-                f.write(f"link: \"{url}\"\n")
+                f.write(f"link: \"{entry.link}\"\n")
                 f.write(f"summary: \"{summary}\"\n")
                 f.write("---\n\n")
-                # Write the rating as a clickable header link
-                f.write(f"## [{rating}]({url}) {liked} {rewatch}\n\n")
-                f.write(content)
+
+                # Write the summary as a clickable header link
+                f.write(f"## [{summary}]({entry.link})\n\n")
+
+                # Add poster and watched date information
+                if poster_url:
+                    f.write(f"<p><img src=\"{poster_url}\" /></p>\n")
+
+                # Add watched date from the description
+                watched_date_match = re.search(r'Watched on ([^<]+)', entry.summary or '')
+                if watched_date_match:
+                    f.write(f"<p>{watched_date_match.group(0)}</p>")
+
             print(f"Successfully added: {title}")
         except Exception as e:
             print(f"Error while writing file {filename}: {e}")
