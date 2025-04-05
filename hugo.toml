@@ -3,6 +3,7 @@ theme = "papermod"
 languageCode = "en-us"
 relativeURLs = true
 canonifyURLs = true
+googleAnalytics = "G-GBTND4TV5P"
 
 [params]
   title = "emiliosao.me"
@@ -22,7 +23,6 @@ canonifyURLs = true
   showCount = false
   mainSections = []
   homeSections = []
-  googleAnalytics = "G-GBTND4TV5P"  # Use your correct ID from the script  
 
 [markup]
   [markup.goldmark]
