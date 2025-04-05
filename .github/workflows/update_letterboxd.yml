@@ -18,6 +18,7 @@ jobs:
       - name: Run Update Script
         run: python scripts/update_letterboxd.py
       - name: Commit and Push Changes
+        id: commit
         run: |
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
@@ -26,3 +27,9 @@ jobs:
           git push
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Trigger deploy workflow
+        if: steps.commit.outcome == 'success'
+        uses: peter-evans/repository-dispatch@v2
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          event-type: deploy-site

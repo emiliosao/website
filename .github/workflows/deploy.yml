@@ -3,6 +3,8 @@ on:
   push:
     branches:
       - main
+  repository_dispatch:
+    types: [deploy-site]
   workflow_dispatch:
 jobs:
   build-deploy:
