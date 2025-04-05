@@ -2,360 +2,374 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Letterboxd on </title>
-    <link>https://emiliosao.me/tags/letterboxd/</link>
+    <link>http://localhost:1313/tags/letterboxd/</link>
     <description>Recent content in Letterboxd on </description>
     <generator>Hugo -- 0.145.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 30 Mar 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://emiliosao.me/tags/letterboxd/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 04 Apr 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/letterboxd/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Death of a Unicorn, 2025</title>
+      <link>http://localhost:1313/blog/250404-death_of_a_unicorn_2025/</link>
+      <pubDate>Fri, 04 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/250404-death_of_a_unicorn_2025/</guid>
+      <description>★★★ on Letterboxd</description>
+    </item>
+    <item>
+      <title>Sonic the Hedgehog 3, 2024</title>
+      <link>http://localhost:1313/blog/250404-sonic_the_hedgehog_3_2024/</link>
+      <pubDate>Fri, 04 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/250404-sonic_the_hedgehog_3_2024/</guid>
+      <description>★★★ on Letterboxd</description>
+    </item>
     <item>
       <title>Kiss Kiss Bang Bang, 2005</title>
-      <link>https://emiliosao.me/blog/250330-kiss_kiss_bang_bang_2005/</link>
+      <link>http://localhost:1313/blog/250330-kiss_kiss_bang_bang_2005/</link>
       <pubDate>Sun, 30 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://emiliosao.me/blog/250330-kiss_kiss_bang_bang_2005/</guid>
+      <guid>http://localhost:1313/blog/250330-kiss_kiss_bang_bang_2005/</guid>
       <description>★★★★ on Letterboxd</description>
     </item>
     <item>
       <title>The Florida Project, 2017</title>
-      <link>https://emiliosao.me/blog/250330-the_florida_project_2017/</link>
+      <link>http://localhost:1313/blog/250330-the_florida_project_2017/</link>
       <pubDate>Sun, 30 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://emiliosao.me/blog/250330-the_florida_project_2017/</guid>
+      <guid>http://localhost:1313/blog/250330-the_florida_project_2017/</guid>
       <description>★★★ on Letterboxd</description>
     </item>
     <item>
       <title>Adolescence, 2025</title>
-      <link>https://emiliosao.me/blog/250325-adolescence_2025/</link>
+      <link>http://localhost:1313/blog/250325-adolescence_2025/</link>
       <pubDate>Tue, 25 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://emiliosao.me/blog/250325-adolescence_2025/</guid>
+      <guid>http://localhost:1313/blog/250325-adolescence_2025/</guid>
       <description>Logged on Letterboxd</description>
     </item>
     <item>
       <title>The Nice Guys, 2016</title>
-      <link>https://emiliosao.me/blog/250323-the_nice_guys_2016/</link>
+      <link>http://localhost:1313/blog/250323-the_nice_guys_2016/</link>
       <pubDate>Sun, 23 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://emiliosao.me/blog/250323-the_nice_guys_2016/</guid>
+      <guid>http://localhost:1313/blog/250323-the_nice_guys_2016/</guid>
       <description>Logged on Letterboxd</description>
     </item>
     <item>
       <title>Election, 1999</title>
-      <link>https://emiliosao.me/blog/250322-election_1999/</link>
+      <link>http://localhost:1313/blog/250322-election_1999/</link>
       <pubDate>Sat, 22 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://emiliosao.me/blog/250322-election_1999/</guid>
+      <guid>http://localhost:1313/blog/250322-election_1999/</guid>
       <description>★★★★ on Letterboxd</description>
     </item>
     <item>
       <title>Crazy, Stupid, Love., 2011</title>
-      <link>https://emiliosao.me/blog/250319-crazy_stupid_love_2011/</link>
+      <link>http://localhost:1313/blog/250319-crazy_stupid_love_2011/</link>
       <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://emiliosao.me/blog/250319-crazy_stupid_love_2011/</guid>
+      <guid>http://localhost:1313/blog/250319-crazy_stupid_love_2011/</guid>
       <description>Logged on Letterboxd</description>
     </item>
     <item>
       <title>I Saw the TV Glow, 2024</title>
-      <link>https://emiliosao.me/blog/250316-i_saw_the_tv_glow_2024/</link>
+      <link>http://localhost:1313/blog/250316-i_saw_the_tv_glow_2024/</link>
       <pubDate>Sun, 16 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://emiliosao.me/blog/250316-i_saw_the_tv_glow_2024/</guid>
+      <guid>http://localhost:1313/blog/250316-i_saw_the_tv_glow_2024/</guid>
       <description>★★★ on Letterboxd</description>
     </item>
     <item>
       <title>Sideways, 2004</title>
-      <link>https://emiliosao.me/blog/250312-sideways_2004/</link>
+      <link>http://localhost:1313/blog/250312-sideways_2004/</link>
       <pubDate>Wed, 12 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://emiliosao.me/blog/250312-sideways_2004/</guid>
+      <guid>http://localhost:1313/blog/250312-sideways_2004/</guid>
       <description>★★★★ on Letterboxd</description>
     </item>
     <item>
       <title>I Used to Be Funny, 2023</title>
-      <link>https://emiliosao.me/blog/250309-i_used_to_be_funny_2023/</link>
+      <link>http://localhost:1313/blog/250309-i_used_to_be_funny_2023/</link>
       <pubDate>Sun, 09 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://emiliosao.me/blog/250309-i_used_to_be_funny_2023/</guid>
+      <guid>http://localhost:1313/blog/250309-i_used_to_be_funny_2023/</guid>
       <description>★★★ on Letterboxd</description>
     </item>
     <item>
       <title>Licorice Pizza, 2021</title>
-      <link>https://emiliosao.me/blog/250308-licorice_pizza_2021/</link>
+      <link>http://localhost:1313/blog/250308-licorice_pizza_2021/</link>
       <pubDate>Sat, 08 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://emiliosao.me/blog/250308-licorice_pizza_2021/</guid>
+      <guid>http://localhost:1313/blog/250308-licorice_pizza_2021/</guid>
       <description>★★★ on Letterboxd</description>
     </item>
     <item>
       <title>Yes, God, Yes, 2019</title>
-      <link>https://emiliosao.me/blog/250308-yes_god_yes_2019/</link>
+      <link>http://localhost:1313/blog/250308-yes_god_yes_2019/</link>
       <pubDate>Sat, 08 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://emiliosao.me/blog/250308-yes_god_yes_2019/</guid>
+      <guid>http://localhost:1313/blog/250308-yes_god_yes_2019/</guid>
       <description>★★ on Letterboxd</description>
     </item>
     <item>
       <title>Mickey 17, 2025</title>
-      <link>https://emiliosao.me/blog/250307-mickey_17_2025/</link>
+      <link>http://localhost:1313/blog/250307-mickey_17_2025/</link>
       <pubDate>Fri, 07 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://emiliosao.me/blog/250307-mickey_17_2025/</guid>
+      <guid>http://localhost:1313/blog/250307-mickey_17_2025/</guid>
       <description>★★★★ on Letterboxd</description>
     </item>
     <item>
       <title>My Neighbor Totoro, 1988</title>
-      <link>https://emiliosao.me/blog/250305-my_neighbor_totoro_1988/</link>
+      <link>http://localhost:1313/blog/250305-my_neighbor_totoro_1988/</link>
       <pubDate>Wed, 05 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://emiliosao.me/blog/250305-my_neighbor_totoro_1988/</guid>
+      <guid>http://localhost:1313/blog/250305-my_neighbor_totoro_1988/</guid>
       <description>★★★★ on Letterboxd</description>
     </item>
     <item>
       <title>Happy Gilmore, 1996</title>
-      <link>https://emiliosao.me/blog/250302-happy_gilmore_1996/</link>
+      <link>http://localhost:1313/blog/250302-happy_gilmore_1996/</link>
       <pubDate>Sun, 02 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://emiliosao.me/blog/250302-happy_gilmore_1996/</guid>
+      <guid>http://localhost:1313/blog/250302-happy_gilmore_1996/</guid>
       <description>★★★ on Letterboxd</description>
     </item>
     <item>
       <title>Nickel Boys, 2024</title>
-      <link>https://emiliosao.me/blog/250302-nickel_boys_2024/</link>
+      <link>http://localhost:1313/blog/250302-nickel_boys_2024/</link>
       <pubDate>Sun, 02 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://emiliosao.me/blog/250302-nickel_boys_2024/</guid>
+      <guid>http://localhost:1313/blog/250302-nickel_boys_2024/</guid>
       <description>Logged on Letterboxd</description>
     </item>
     <item>
       <title>Spring Breakers, 2012</title>
-      <link>https://emiliosao.me/blog/250226-spring_breakers_2012/</link>
+      <link>http://localhost:1313/blog/250226-spring_breakers_2012/</link>
       <pubDate>Wed, 26 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://emiliosao.me/blog/250226-spring_breakers_2012/</guid>
+      <guid>http://localhost:1313/blog/250226-spring_breakers_2012/</guid>
       <description>★★★ on Letterboxd</description>
     </item>
     <item>
       <title>Flubber, 1997</title>
-      <link>https://emiliosao.me/blog/250223-flubber_1997/</link>
+      <link>http://localhost:1313/blog/250223-flubber_1997/</link>
       <pubDate>Sun, 23 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://emiliosao.me/blog/250223-flubber_1997/</guid>
+      <guid>http://localhost:1313/blog/250223-flubber_1997/</guid>
       <description>★★ on Letterboxd</description>
     </item>
     <item>
       <title>Kneecap, 2024</title>
-      <link>https://emiliosao.me/blog/250222-kneecap_2024/</link>
+      <link>http://localhost:1313/blog/250222-kneecap_2024/</link>
       <pubDate>Sat, 22 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://emiliosao.me/blog/250222-kneecap_2024/</guid>
+      <guid>http://localhost:1313/blog/250222-kneecap_2024/</guid>
       <description>★★★★ on Letterboxd</description>
     </item>
     <item>
       <title>Fargo, 1996</title>
-      <link>https://emiliosao.me/blog/250220-fargo_1996/</link>
+      <link>http://localhost:1313/blog/250220-fargo_1996/</link>
       <pubDate>Thu, 20 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://emiliosao.me/blog/250220-fargo_1996/</guid>
+      <guid>http://localhost:1313/blog/250220-fargo_1996/</guid>
       <description>★★★★ on Letterboxd</description>
     </item>
     <item>
       <title>Anora, 2024</title>
-      <link>https://emiliosao.me/blog/250219-anora_2024/</link>
+      <link>http://localhost:1313/blog/250219-anora_2024/</link>
       <pubDate>Wed, 19 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://emiliosao.me/blog/250219-anora_2024/</guid>
+      <guid>http://localhost:1313/blog/250219-anora_2024/</guid>
       <description>★★★★ on Letterboxd</description>
     </item>
     <item>
       <title>La Dolce Villa, 2025</title>
-      <link>https://emiliosao.me/blog/250219-la_dolce_villa_2025/</link>
+      <link>http://localhost:1313/blog/250219-la_dolce_villa_2025/</link>
       <pubDate>Wed, 19 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://emiliosao.me/blog/250219-la_dolce_villa_2025/</guid>
+      <guid>http://localhost:1313/blog/250219-la_dolce_villa_2025/</guid>
       <description>★ on Letterboxd</description>
     </item>
     <item>
       <title>Saturday Night, 2024</title>
-      <link>https://emiliosao.me/blog/250218-saturday_night_2024/</link>
+      <link>http://localhost:1313/blog/250218-saturday_night_2024/</link>
       <pubDate>Tue, 18 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://emiliosao.me/blog/250218-saturday_night_2024/</guid>
+      <guid>http://localhost:1313/blog/250218-saturday_night_2024/</guid>
       <description>★★★ on Letterboxd</description>
     </item>
     <item>
       <title>Good Time, 2017</title>
-      <link>https://emiliosao.me/blog/250216-good_time_2017/</link>
+      <link>http://localhost:1313/blog/250216-good_time_2017/</link>
       <pubDate>Sun, 16 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://emiliosao.me/blog/250216-good_time_2017/</guid>
+      <guid>http://localhost:1313/blog/250216-good_time_2017/</guid>
       <description>★★★★ on Letterboxd</description>
     </item>
     <item>
       <title>Parasite, 2019</title>
-      <link>https://emiliosao.me/blog/250214-parasite_2019/</link>
+      <link>http://localhost:1313/blog/250214-parasite_2019/</link>
       <pubDate>Fri, 14 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://emiliosao.me/blog/250214-parasite_2019/</guid>
+      <guid>http://localhost:1313/blog/250214-parasite_2019/</guid>
       <description>★★★★★ on Letterboxd</description>
     </item>
     <item>
       <title>Scrapper, 2023</title>
-      <link>https://emiliosao.me/blog/250212-scrapper_2023/</link>
+      <link>http://localhost:1313/blog/250212-scrapper_2023/</link>
       <pubDate>Wed, 12 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://emiliosao.me/blog/250212-scrapper_2023/</guid>
+      <guid>http://localhost:1313/blog/250212-scrapper_2023/</guid>
       <description>★★★★ on Letterboxd</description>
     </item>
     <item>
       <title>Uncut Gems, 2019</title>
-      <link>https://emiliosao.me/blog/250211-uncut_gems_2019/</link>
+      <link>http://localhost:1313/blog/250211-uncut_gems_2019/</link>
       <pubDate>Tue, 11 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://emiliosao.me/blog/250211-uncut_gems_2019/</guid>
+      <guid>http://localhost:1313/blog/250211-uncut_gems_2019/</guid>
       <description>★★★★ on Letterboxd</description>
     </item>
     <item>
       <title>Theater Camp, 2023</title>
-      <link>https://emiliosao.me/blog/250202-theater_camp_2023/</link>
+      <link>http://localhost:1313/blog/250202-theater_camp_2023/</link>
       <pubDate>Sun, 02 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://emiliosao.me/blog/250202-theater_camp_2023/</guid>
+      <guid>http://localhost:1313/blog/250202-theater_camp_2023/</guid>
       <description>★★★ on Letterboxd</description>
     </item>
     <item>
       <title>Babygirl, 2024</title>
-      <link>https://emiliosao.me/blog/250129-babygirl_2024/</link>
+      <link>http://localhost:1313/blog/250129-babygirl_2024/</link>
       <pubDate>Wed, 29 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://emiliosao.me/blog/250129-babygirl_2024/</guid>
+      <guid>http://localhost:1313/blog/250129-babygirl_2024/</guid>
       <description>★★★ on Letterboxd</description>
     </item>
     <item>
       <title>Everything Everywhere All at Once, 2022</title>
-      <link>https://emiliosao.me/blog/250124-everything_everywhere_all_at_once_2022/</link>
+      <link>http://localhost:1313/blog/250124-everything_everywhere_all_at_once_2022/</link>
       <pubDate>Fri, 24 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://emiliosao.me/blog/250124-everything_everywhere_all_at_once_2022/</guid>
+      <guid>http://localhost:1313/blog/250124-everything_everywhere_all_at_once_2022/</guid>
       <description>Logged on Letterboxd</description>
     </item>
     <item>
       <title>Bottoms, 2023</title>
-      <link>https://emiliosao.me/blog/250121-bottoms_2023/</link>
+      <link>http://localhost:1313/blog/250121-bottoms_2023/</link>
       <pubDate>Tue, 21 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://emiliosao.me/blog/250121-bottoms_2023/</guid>
+      <guid>http://localhost:1313/blog/250121-bottoms_2023/</guid>
       <description>★★★ on Letterboxd</description>
     </item>
     <item>
       <title>Get Out, 2017</title>
-      <link>https://emiliosao.me/blog/250119-get_out_2017/</link>
+      <link>http://localhost:1313/blog/250119-get_out_2017/</link>
       <pubDate>Sun, 19 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://emiliosao.me/blog/250119-get_out_2017/</guid>
+      <guid>http://localhost:1313/blog/250119-get_out_2017/</guid>
       <description>★★★★★ on Letterboxd</description>
     </item>
     <item>
       <title>Sólo con tu pareja, 1991</title>
-      <link>https://emiliosao.me/blog/250119-s%C3%B3lo_con_tu_pareja_1991/</link>
+      <link>http://localhost:1313/blog/250119-s%C3%B3lo_con_tu_pareja_1991/</link>
       <pubDate>Sun, 19 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://emiliosao.me/blog/250119-s%C3%B3lo_con_tu_pareja_1991/</guid>
+      <guid>http://localhost:1313/blog/250119-s%C3%B3lo_con_tu_pareja_1991/</guid>
       <description>★★★ on Letterboxd</description>
     </item>
     <item>
       <title>Shiva Baby, 2020</title>
-      <link>https://emiliosao.me/blog/250118-shiva_baby_2020/</link>
+      <link>http://localhost:1313/blog/250118-shiva_baby_2020/</link>
       <pubDate>Sat, 18 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://emiliosao.me/blog/250118-shiva_baby_2020/</guid>
+      <guid>http://localhost:1313/blog/250118-shiva_baby_2020/</guid>
       <description>★★★★ on Letterboxd</description>
     </item>
     <item>
       <title>The Substance, 2024</title>
-      <link>https://emiliosao.me/blog/250116-the_substance_2024/</link>
+      <link>http://localhost:1313/blog/250116-the_substance_2024/</link>
       <pubDate>Thu, 16 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://emiliosao.me/blog/250116-the_substance_2024/</guid>
+      <guid>http://localhost:1313/blog/250116-the_substance_2024/</guid>
       <description>★★★★ on Letterboxd</description>
     </item>
     <item>
       <title>A Real Pain, 2024</title>
-      <link>https://emiliosao.me/blog/250115-a_real_pain_2024/</link>
+      <link>http://localhost:1313/blog/250115-a_real_pain_2024/</link>
       <pubDate>Wed, 15 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://emiliosao.me/blog/250115-a_real_pain_2024/</guid>
+      <guid>http://localhost:1313/blog/250115-a_real_pain_2024/</guid>
       <description>★★★★ on Letterboxd</description>
     </item>
     <item>
       <title>The Unbearable Weight of Massive Talent, 2022</title>
-      <link>https://emiliosao.me/blog/250112-the_unbearable_weight_of_massive_talent_2022/</link>
+      <link>http://localhost:1313/blog/250112-the_unbearable_weight_of_massive_talent_2022/</link>
       <pubDate>Sun, 12 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://emiliosao.me/blog/250112-the_unbearable_weight_of_massive_talent_2022/</guid>
+      <guid>http://localhost:1313/blog/250112-the_unbearable_weight_of_massive_talent_2022/</guid>
       <description>★★★★ on Letterboxd</description>
     </item>
     <item>
       <title>Booksmart, 2019</title>
-      <link>https://emiliosao.me/blog/250111-booksmart_2019/</link>
+      <link>http://localhost:1313/blog/250111-booksmart_2019/</link>
       <pubDate>Sat, 11 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://emiliosao.me/blog/250111-booksmart_2019/</guid>
+      <guid>http://localhost:1313/blog/250111-booksmart_2019/</guid>
       <description>★★★ on Letterboxd</description>
     </item>
     <item>
       <title>The Fall Guy, 2024</title>
-      <link>https://emiliosao.me/blog/250105-the_fall_guy_2024/</link>
+      <link>http://localhost:1313/blog/250105-the_fall_guy_2024/</link>
       <pubDate>Sun, 05 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://emiliosao.me/blog/250105-the_fall_guy_2024/</guid>
+      <guid>http://localhost:1313/blog/250105-the_fall_guy_2024/</guid>
       <description>★★★★ on Letterboxd</description>
     </item>
     <item>
       <title>Rogue One A Star Wars Story, 2016</title>
-      <link>https://emiliosao.me/blog/241231-rogue_one_a_star_wars_story_2016/</link>
+      <link>http://localhost:1313/blog/241231-rogue_one_a_star_wars_story_2016/</link>
       <pubDate>Tue, 31 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>https://emiliosao.me/blog/241231-rogue_one_a_star_wars_story_2016/</guid>
+      <guid>http://localhost:1313/blog/241231-rogue_one_a_star_wars_story_2016/</guid>
       <description>★★★★ on Letterboxd</description>
     </item>
     <item>
       <title>Short Term 12, 2013</title>
-      <link>https://emiliosao.me/blog/241228-short_term_12_2013/</link>
+      <link>http://localhost:1313/blog/241228-short_term_12_2013/</link>
       <pubDate>Sat, 28 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>https://emiliosao.me/blog/241228-short_term_12_2013/</guid>
+      <guid>http://localhost:1313/blog/241228-short_term_12_2013/</guid>
       <description>★★★★ on Letterboxd</description>
     </item>
     <item>
       <title>The Bikeriders, 2023</title>
-      <link>https://emiliosao.me/blog/241228-the_bikeriders_2023/</link>
+      <link>http://localhost:1313/blog/241228-the_bikeriders_2023/</link>
       <pubDate>Sat, 28 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>https://emiliosao.me/blog/241228-the_bikeriders_2023/</guid>
+      <guid>http://localhost:1313/blog/241228-the_bikeriders_2023/</guid>
       <description>★★★ on Letterboxd</description>
     </item>
     <item>
       <title>The Holdovers, 2023</title>
-      <link>https://emiliosao.me/blog/241226-the_holdovers_2023/</link>
+      <link>http://localhost:1313/blog/241226-the_holdovers_2023/</link>
       <pubDate>Thu, 26 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>https://emiliosao.me/blog/241226-the_holdovers_2023/</guid>
+      <guid>http://localhost:1313/blog/241226-the_holdovers_2023/</guid>
       <description>★★★★ on Letterboxd</description>
     </item>
     <item>
       <title>Carry-On, 2024</title>
-      <link>https://emiliosao.me/blog/241225-carry-on_2024/</link>
+      <link>http://localhost:1313/blog/241225-carry-on_2024/</link>
       <pubDate>Wed, 25 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>https://emiliosao.me/blog/241225-carry-on_2024/</guid>
+      <guid>http://localhost:1313/blog/241225-carry-on_2024/</guid>
       <description>★★ on Letterboxd</description>
     </item>
     <item>
       <title>Transformers One, 2024</title>
-      <link>https://emiliosao.me/blog/241225-transformers_one_2024/</link>
+      <link>http://localhost:1313/blog/241225-transformers_one_2024/</link>
       <pubDate>Wed, 25 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>https://emiliosao.me/blog/241225-transformers_one_2024/</guid>
+      <guid>http://localhost:1313/blog/241225-transformers_one_2024/</guid>
       <description>★★★ on Letterboxd</description>
     </item>
     <item>
       <title>Love Actually, 2003</title>
-      <link>https://emiliosao.me/blog/241222-love_actually_2003/</link>
+      <link>http://localhost:1313/blog/241222-love_actually_2003/</link>
       <pubDate>Sun, 22 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>https://emiliosao.me/blog/241222-love_actually_2003/</guid>
+      <guid>http://localhost:1313/blog/241222-love_actually_2003/</guid>
       <description>Logged on Letterboxd</description>
     </item>
     <item>
       <title>Wicked, 2024</title>
-      <link>https://emiliosao.me/blog/241221-wicked_2024/</link>
+      <link>http://localhost:1313/blog/241221-wicked_2024/</link>
       <pubDate>Sat, 21 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>https://emiliosao.me/blog/241221-wicked_2024/</guid>
+      <guid>http://localhost:1313/blog/241221-wicked_2024/</guid>
       <description>★★★ on Letterboxd</description>
     </item>
     <item>
       <title>Fly Me to the Moon, 2024</title>
-      <link>https://emiliosao.me/blog/241206-fly_me_to_the_moon_2024/</link>
+      <link>http://localhost:1313/blog/241206-fly_me_to_the_moon_2024/</link>
       <pubDate>Fri, 06 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>https://emiliosao.me/blog/241206-fly_me_to_the_moon_2024/</guid>
+      <guid>http://localhost:1313/blog/241206-fly_me_to_the_moon_2024/</guid>
       <description>★★ on Letterboxd</description>
     </item>
     <item>
       <title>Little Women, 2019</title>
-      <link>https://emiliosao.me/blog/241204-little_women_2019/</link>
+      <link>http://localhost:1313/blog/241204-little_women_2019/</link>
       <pubDate>Wed, 04 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>https://emiliosao.me/blog/241204-little_women_2019/</guid>
+      <guid>http://localhost:1313/blog/241204-little_women_2019/</guid>
       <description>★★★★ on Letterboxd</description>
     </item>
     <item>
       <title>Blitz, 2024</title>
-      <link>https://emiliosao.me/blog/241201-blitz_2024/</link>
+      <link>http://localhost:1313/blog/241201-blitz_2024/</link>
       <pubDate>Sun, 01 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>https://emiliosao.me/blog/241201-blitz_2024/</guid>
+      <guid>http://localhost:1313/blog/241201-blitz_2024/</guid>
       <description>★★★ on Letterboxd</description>
     </item>
     <item>
       <title>Children of Men, 2006</title>
-      <link>https://emiliosao.me/blog/241124-children_of_men_2006/</link>
+      <link>http://localhost:1313/blog/241124-children_of_men_2006/</link>
       <pubDate>Sun, 24 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>https://emiliosao.me/blog/241124-children_of_men_2006/</guid>
+      <guid>http://localhost:1313/blog/241124-children_of_men_2006/</guid>
       <description>★★★★ on Letterboxd</description>
     </item>
   </channel>
