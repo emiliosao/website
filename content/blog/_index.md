@@ -1,7 +1,7 @@
 ---
 title: "My Blog"                  # Page title shown on the page
 windowTitle: "Emilio's Blog"       # Browser/tab title
-layout: "page"  # Uses PaperMod's list layout
+layout: "archives"  # Uses PaperMod's list layout
 ---
 
 
