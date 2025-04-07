@@ -3,9 +3,12 @@ on:
   schedule:
     - cron: '0 0 * * *' # Runs daily at midnight
   workflow_dispatch:
+
 jobs:
   update-posts:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - name: Checkout Code
         uses: actions/checkout@v3
@@ -30,15 +33,7 @@ jobs:
             echo "changes=false" >> $GITHUB_OUTPUT
           fi
 
-      - name: Commit changes
-        if: steps.check_changes.outputs.changes == 'true'
-        run: |
-          git config --global user.name "GitHub Actions"
-          git config --global user.email "actions@github.com"
-          git add content/blog/
-          git commit -m "Automated update of Letterboxd posts"
-
-      # Hugo setup and build - do this BEFORE pushing
+      # Setup and run Hugo if there are changes
       - name: Setup Hugo
         if: steps.check_changes.outputs.changes == 'true'
         uses: peaceiris/actions-hugo@v2
@@ -49,19 +44,12 @@ jobs:
         if: steps.check_changes.outputs.changes == 'true'
         run: hugo --minify --baseURL "https://emiliosao.me/"
 
-      # Push all changes including both content files and generated site
-      - name: Push changes
+      # Commit both content and public directory
+      - name: Commit changes
         if: steps.check_changes.outputs.changes == 'true'
-        run: git push
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-      # Deploy to GitHub Pages
-      - name: Deploy to GitHub Pages
-        if: steps.check_changes.outputs.changes == 'true'
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: public
-          publish_branch: gh-pages
-          cname: emiliosao.me
+        run: |
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
+          git add content/blog/ public/
+          git commit -m "Automated update of Letterboxd posts and rebuilt site"
+          git push
