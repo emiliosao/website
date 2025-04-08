@@ -23,6 +23,7 @@ googleAnalytics = "G-GBTND4TV5P"
   showCount = false
   mainSections = ["blog"]
   homeSections = []
+  paginate = 20
 
 [markup]
   [markup.goldmark]

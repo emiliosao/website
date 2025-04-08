@@ -8,7 +8,7 @@ import xml.etree.ElementTree as ET
 rss_url = "https://letterboxd.com/emiliosao/rss/"
 
 # Directory for blog posts
-blog_dir = "content/blog/"
+blog_dir = "content/blog/letterboxd/"
 
 # Ensure the blog directory exists
 os.makedirs(blog_dir, exist_ok=True)
@@ -67,12 +67,16 @@ for entry in feed.entries:
     poster_match = re.search(r'<img src="([^"]+)"', entry.summary or '')
     poster_url = poster_match.group(1) if poster_match else ''
 
-    # Construct the summary based on the rating and rewatch status
+    # Set the description to just the rating or rewatch symbol
+    # This will be used in the front matter
     if rating:
+        description = rating
         summary = f"{rating} on Letterboxd"
     elif rewatch:
-        summary = f"🔄 on Letterboxd"
+        description = rewatch
+        summary = f"{rewatch} on Letterboxd"
     else:
+        description = "Logged"
         summary = "Logged on Letterboxd"
 
     # Filename format
@@ -92,19 +96,15 @@ for entry in feed.entries:
             f.write(f"source: 'Letterboxd'\n")
             f.write(f"link: \"{entry.link}\"\n")
             f.write(f"summary: \"{summary}\"\n")
-            f.write("---\n\n")
-
-            # Write the rating as a clickable header link (with rewatch if present)
-            f.write(f"## [{summary}]({entry.link})\n\n")
-
-            # Add poster and watched date information
+            # Add the cover information
             if poster_url:
-                f.write(f"<p><img src=\"{poster_url}\" /></p>\n")
+                f.write(f"cover:\n    image: \"{poster_url}\"\n    alt: \"{title} movie poster\"\n")
+            # Add the description with just the rating or rewatch symbol
+            f.write(f"description: \"{description}\"\n")
+            f.write("---\n")
 
-            # Add watched date from the description
-            watched_date_match = re.search(r'Watched on ([^<]+)', entry.summary or '')
-            if watched_date_match:
-                f.write(f"<p>{watched_date_match.group(0)}</p>")
+            # Standard "Logged on Letterboxd" header with link
+            f.write(f"## [Logged on Letterboxd]({entry.link})\n\n")
 
         print(f"Successfully added: {title}")
     except Exception as e:

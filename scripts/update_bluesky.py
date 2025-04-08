@@ -35,6 +35,16 @@ clean_title = post_text[:50].replace(" ", "_").replace("/", "_")
 filename = f"{date_part}-bluesky_{clean_title}.md"
 filepath = os.path.join(blog_dir, filename)
 
+# Extract image if available
+image_url = None
+if 'embed' in latest_post['post'] and latest_post['post']['embed'].get('$type') == 'app.bsky.embed.images':
+    try:
+        images = latest_post['post']['embed']['images']
+        if images and len(images) > 0:
+            image_url = images[0]['fullsize']
+    except (KeyError, IndexError):
+        pass
+
 # Check if the file already exists
 if os.path.exists(filepath):
     print(f"Already exists: {filename}")
@@ -45,6 +55,11 @@ else:
             f.write(f"---\ntitle: \"Bluesky Post\"\ndate: {post_date.strftime('%Y-%m-%d')}\ntags: ['bluesky']\n")
             f.write(f"source: 'Bluesky'\n")
             f.write(f"link: \"{post_url}\"\n")
+
+            # Add cover image if available
+            if image_url:
+                f.write(f"cover:\n    image: \"{image_url}\"\n    alt: \"Bluesky post image\"\n")
+
             f.write("---\n\n")
             f.write(f"{{{{< bluesky \"{post_url}\" >}}}}\n")
             f.write(f"\n{post_text}\n")
