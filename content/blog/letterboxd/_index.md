@@ -1,6 +1,5 @@
 ---
 title: "Letterboxd Reviews"
-description: "My diary entries from Letterboxd"
 layout: "page"
 ---
 
