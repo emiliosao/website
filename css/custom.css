@@ -1,0 +1,13 @@
+/* Style for social icons */
+.social-icon {
+  /* Make icons darker in light mode */
+  filter: brightness(0.2);
+}
+
+/* Dark mode adjustments */
+@media (prefers-color-scheme: dark) {
+  .social-icon {
+    /* Make icons white in dark mode */
+    filter: brightness(0) invert(1);
+  }
+}
