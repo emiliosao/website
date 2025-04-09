@@ -1,0 +1,47 @@
+{{ define "main" }}
+<header class="page-header">
+  <h1>{{ .Title }}</h1>
+</header>
+
+<div class="posts-list">
+  {{ range .Paginator.Pages }}
+  <article class="post-entry" style="display: flex; align-items: flex-start; gap: 20px;">
+    <div style="flex: 1;">
+      <header class="entry-header">
+        <h2>{{ .Title }}</h2>
+      </header>
+      <div class="entry-content">
+        <p>{{ .Params.summary | default .Summary }}</p>
+      </div>
+      <footer class="entry-footer">
+        <span>{{ .Date.Format "January 2, 2006" }}</span>
+      </footer>
+    </div>
+
+    {{ if .Params.cover.image }}
+    <div style="flex: 0 0 120px;">
+      <a href="{{ .Permalink }}">
+        <img src="{{ .Params.cover.image }}" alt="{{ .Params.cover.alt | default .Title }}" style="width: 120px; height: auto; border-radius: 4px;" loading="lazy">
+      </a>
+    </div>
+    {{ end }}
+
+    <a class="entry-link" aria-label="post link to {{ .Title }}" href="{{ .Permalink }}"></a>
+  </article>
+  {{ end }}
+</div>
+
+<!-- PaperMod style pagination -->
+{{- if gt .Paginator.TotalPages 1 }}
+<footer class="page-footer">
+  <nav class="pagination">
+    {{- if .Paginator.HasPrev }}
+    <a class="prev" href="{{ .Paginator.Prev.URL | absURL }}">« {{ i18n "prev_page" }}</a>
+    {{- end }}
+    {{- if .Paginator.HasNext }}
+    <a class="next" href="{{ .Paginator.Next.URL | absURL }}">{{ i18n "next_page" }} »</a>
+    {{- end }}
+  </nav>
+</footer>
+{{- end }}
+{{ end }}
