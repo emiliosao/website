@@ -13,7 +13,7 @@ This is the source code for [my personal website](https://emiliosao.me), built w
 - `content/`: Source markdown files for site content
   - `content/blog/`: Blog posts including automatically updated Letterboxd diary entries
 - `themes/papermod/`: Customized PaperMod theme
-- `scripts/`: Automation scripts for blog posts
+- `scripts/`: Automation scripts for blog postsithub cop
 - `static/`: Static assets like icons, PDFs, and the tech radar
 - `.github/workflows/`: Automation workflows
   - `deploy.yml`: Deploys the site to GitHub Pages
