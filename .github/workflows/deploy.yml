@@ -9,15 +9,32 @@ on:
 jobs:
   build-deploy:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - name: Checkout Code
         uses: actions/checkout@v3
+        with:
+          submodules: 'recursive'
+
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
-          hugo-version: 'latest'
+          hugo-version: '0.145.0'
+          extended: true
+
+      - name: Debug Environment
+        run: |
+          echo "Hugo version:"
+          hugo version
+          echo "Checking theme structure:"
+          ls -la themes/papermod/layouts/partials/templates/
+          echo "Content of schema_json.html exists:"
+          test -f themes/papermod/layouts/partials/templates/schema_json.html && echo "Yes" || echo "No"
+
       - name: Build site
         run: hugo --minify --baseURL "https://emiliosao.me/"
+
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
