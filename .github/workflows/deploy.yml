@@ -23,15 +23,6 @@ jobs:
           hugo-version: '0.145.0'
           extended: true
 
-      - name: Debug Environment
-        run: |
-          echo "Hugo version:"
-          hugo version
-          echo "Checking theme structure:"
-          ls -la themes/papermod/layouts/partials/templates/
-          echo "Content of schema_json.html exists:"
-          test -f themes/papermod/layouts/partials/templates/schema_json.html && echo "Yes" || echo "No"
-
       - name: Build site
         run: hugo --minify --baseURL "https://emiliosao.me/"
 
