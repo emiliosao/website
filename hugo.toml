@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "https://emiliosao.me/"
 theme = "papermod"
 languageCode = "en-us"
 relativeURLs = true
