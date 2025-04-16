@@ -19,7 +19,8 @@ if feed.entries:
 
     for entry in feed.entries:
         try:
-            entry_date = datetime(*entry.published_parsed[:6])
+            # Use letterboxd:watchedDate with correct date format
+            watched_date = datetime.strptime(entry.get('letterboxd_watcheddate', ''), "%Y-%m-%d")
         except Exception as e:
             print(f"Error parsing date for entry {entry.title}: {e}")
             continue
@@ -52,14 +53,13 @@ if feed.entries:
 
         # Remove rating from the title
         title = re.sub(r' - ★+½?|:|/|\"', '', entry.title).strip()
-        date = entry_date.strftime("%Y-%m-%d")
+        date = watched_date.strftime("%Y-%m-%d")
 
-        # Extract poster and watched date from the description
+        # Extract poster from the description
         poster_match = re.search(r'<img src="([^"]+)"', entry.summary or '')
         poster_url = poster_match.group(1) if poster_match else ''
 
         # Set the description to just the rating or rewatch symbol
-        # This will be used in the front matter
         if rating:
             description = rating
             summary = f"{rating} on Letterboxd"
@@ -70,8 +70,8 @@ if feed.entries:
             description = "Logged"
             summary = "Logged on Letterboxd"
 
-        # Filename format
-        date_part = entry_date.strftime("%y%m%d")
+        # Filename format using watched_date
+        date_part = watched_date.strftime("%y%m%d")
         clean_title = re.sub(r"[^\w\s-]", "", title).replace(" ", "_")
         filename = f"{date_part}-{clean_title}.md"
         filepath = os.path.join(blog_dir, filename)
@@ -97,7 +97,6 @@ if feed.entries:
 
                 # Standard "Logged on Letterboxd" header with link
                 f.write(f"## [Logged on Letterboxd]({entry.link})\n\n")
-
 
             print(f"Successfully added: {title}")
         except Exception as e:

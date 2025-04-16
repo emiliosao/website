@@ -1,6 +1,6 @@
 ---
 title: "Black Mirror Eulogy, 2025"
-date: 2025-04-16
+date: 2025-04-12
 tags: ['letterboxd']
 source: 'Letterboxd'
 link: "https://letterboxd.com/emiliosao/film/black-mirror-eulogy/"

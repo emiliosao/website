@@ -1,6 +1,6 @@
 ---
 title: "Black Mirror USS Callister – Into Infinity, 2025"
-date: 2025-04-16
+date: 2025-04-15
 tags: ['letterboxd']
 source: 'Letterboxd'
 link: "https://letterboxd.com/emiliosao/film/black-mirror-uss-callister-into-infinity/"
