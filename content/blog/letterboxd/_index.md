@@ -1,12 +1,15 @@
 ---
 title: "Letterboxd Reviews"
-layout: "page"
+layout: "list"
 ---
+
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 
-<div style="display: flex; gap: 15px; margin-bottom: 20px; justify-content: left;">
+
+
+<!-- <div style="margin-top: 10px; display: flex; justify-content: center; gap: 50px; flex-wrap: wrap;">
     <a href="https://letterboxd.com/emiliosao/" style="text-decoration: none; color: currentColor;" title="Letterboxd">
-        <i class="fa-brands fa-letterboxd" style="font-size: 20px;"></i>
+        <i class="fa-brands fa-square-letterboxd" style="font-size: 40px;"></i>
     </a>
-</div>
+</div> -->

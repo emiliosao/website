@@ -13,13 +13,23 @@ layout = "page"
 <!-- Include Font Awesome -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
 <!-- Professional Social Icons Section -->
 <div style="margin-top: 20px; display: flex; justify-content: center; gap: 20px; flex-wrap: wrap;">
     <a href="mailto:hello@emiliosao.com" style="text-decoration: none; color: currentColor;" title="Email"><i class="fas fa-envelope" style="font-size: 24px;"></i></a>
     <a href="https://scholar.google.com/citations?user=Ue2RRtcAAAAJ" style="text-decoration: none; color: currentColor;" title="Google Scholar"><i class="fas fa-graduation-cap" style="font-size: 24px;"></i></a>
     <a href="https://github.com/emiliosao" style="text-decoration: none; color: currentColor;" title="GitHub"><i class="fab fa-github" style="font-size: 24px;"></i></a>
     <a href="https://www.linkedin.com/in/emiliosao/" style="text-decoration: none; color: currentColor;" title="LinkedIn"><i class="fab fa-linkedin" style="font-size: 24px;"></i></a>
+    <a href="https://bsky.app/profile/emiliosao.me" style="text-decoration: none; color: currentColor;" title="Bluesky">
+        <i class="fa-brands fa-bluesky" style="font-size: 22px;"></i>
+    </a>
+    <a href="https://letterboxd.com/emiliosao/" style="text-decoration: none; color: currentColor;" title="Letterboxd">
+        <i class="fa-brands fa-square-letterboxd" style="font-size: 26px;"></i>
+    </a>
 </div>
+
+
 
 <!-- Mastodon verification links -->
 <a rel="me" href="https://mastodon.world/@emiliosao" style="display: none;">Mastodon</a>
