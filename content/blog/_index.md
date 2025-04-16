@@ -6,7 +6,7 @@ layout: "archives"  # Uses PaperMod's list layout
 
 ### Stuff I watch, shoot, or ramble about.
 <div style="margin: auto; text-align: justify;">
-This blog is a collection of things I watch, see, think, or come across. Right now, it's mostly movie diary entries from my <a href="https://letterboxd.com/emiliosao/">Letterboxd</a>, but over time you'll find other pieces here too — photo albums, personal notes, maybe posts from <a href="https://https://bsky.app/profile/emiliosao.me">Bluesky</a> or wherever else I’m sharing thoughts. It’s bits of my brain, in blog form.
+This blog is a collection of things I watch, see, think, or come across. Right now, it's mostly movie diary entries from my <a href="https://letterboxd.com/emiliosao/">Letterboxd</a>, but over time you'll find other pieces here too — photo albums, personal notes, maybe posts from <a href="https://bsky.app/profile/emiliosao.me">Bluesky</a> or wherever else I’m sharing thoughts. It’s bits of my brain, in blog form.
 </div>
 
 
