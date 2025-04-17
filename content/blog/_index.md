@@ -1,6 +1,6 @@
 ---
 title: "My Blog"                  # Page title shown on the page
-windowTitle: "Emilio's Blog"       # Browser/tab title
+rssTitle: "emilio's blog"
 layout: "archives"  # Uses PaperMod's list layout
 outputs: ["HTML", "RSS"]
 ---
