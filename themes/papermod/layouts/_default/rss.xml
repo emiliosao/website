@@ -58,7 +58,18 @@
     </title>
 
     <link>{{ .Permalink }}</link>
-    <description>Recent content {{ if ne .Title site.Title }}{{ with .Title }}in {{ . }} {{ end }}{{ end }}on {{ site.Title }}</description>
+    <description>
+    {{ if .Params.rssTitle }}
+      Recent content in {{ .Params.rssTitle }}
+    {{ else if eq .Title site.Title }}
+      Recent content on {{ site.Title }}
+    {{ else if .Title }}
+      Recent content in {{ .Title }} on {{ site.Title }}
+    {{ else }}
+      Recent content on {{ site.Title }}
+    {{ end }}
+    </description>
+
     {{- with site.Params.images }}
     <image>
       <title>{{ site.Title }}</title>
