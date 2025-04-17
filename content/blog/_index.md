@@ -2,6 +2,7 @@
 title: "My Blog"                  # Page title shown on the page
 windowTitle: "Emilio's Blog"       # Browser/tab title
 layout: "archives"  # Uses PaperMod's list layout
+outputs: ["HTML", "RSS"]
 ---
 
 ### Stuff I watch, shoot, or ramble about.
